@@ -641,7 +641,6 @@ private[sbt] object LibraryManagement {
       overwrite: Boolean,
       log: Logger
   ): Unit =
-    import gigahorse.*
     import gigahorse.support.apachehttp.Gigahorse
     import scala.concurrent.Await
     import scala.concurrent.duration.*
